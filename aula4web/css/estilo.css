@@ -1,0 +1,90 @@
+#total{
+    width: 98%;
+    max-width: 980px;
+    height: auto;
+    margin: auto;/*centraliza a divisão na página*/
+}
+#topo{
+    width: 100%;
+    height: auto;
+    float: left;
+    /*background-color: aqua;*/
+}
+#logo{
+    width: 204px;
+    height: 84px;
+    margin: 18px auto;
+}
+
+#menu{
+    width: 100%;
+    height: 40px;
+    background-color: hsl(0, 0%, 7%);
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+}
+#menu a{
+    color: #FFF;
+    margin:0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+}
+
+#figure banner{
+    width: 980px;
+    height: 300px;
+    float: left;
+    background-color: aqua;
+    margin: 10px;
+}
+#banner{
+    margin: auto;
+}
+p{ 
+    color:#D95D30; 
+}
+h1{font-size: 18px;
+    color: #333
+}
+
+div#anunciotablet{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    background-color: #dbc0ad;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF;
+    display: none;
+}
+
+article#conteudo{
+    width: 60%;
+    float:left;
+}
+
+aside#coluna{
+    width: 35%;
+    float: right;
+}
+
+footer#rodape{
+    width: 100%;
+    height: 30px;
+    float: ;
+}
+
+
+/*Media query - css*/
+@media screen and (min-width: 668px) and (max-width: 768px) {
+    div#anunciotablet{
+        display: block;
+    }
+}
+
