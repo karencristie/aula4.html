@@ -42,8 +42,8 @@
     background-color: aqua;
     margin: 10px;
 }
-#banner{
-    margin: auto;
+figure#banner img{ 
+    width: 100%;
 }
 p{ 
     color:#D95D30; 
@@ -72,12 +72,17 @@ article#conteudo{
 aside#coluna{
     width: 35%;
     float: right;
+    text-align: justify;
 }
 
 footer#rodape{
     width: 100%;
     height: 30px;
-    float: ;
+    float: left ;
+    background-color: #dbc0ad;
+    text-align: center;
+    line-height: 30px;
+    color: #333
 }
 
 
@@ -88,3 +93,8 @@ footer#rodape{
     }
 }
 
+@media screen and (max-width: 375px) {
+    #figure banner img{
+        display: none;
+    }
+}
